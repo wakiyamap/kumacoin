@@ -274,6 +274,7 @@ static const CRPCCommand vRPCCommands[] =
     { "addmultisigaddress",     &addmultisigaddress,     false,  false },
     { "createmultisig",         &createmultisig,         true,   true  },
     { "getrawmempool",          &getrawmempool,          true,   false },
+    { "getblockraw",            &getblockraw,            false,  false },
     { "getblock",               &getblock,               false,  false },
     { "getblockbynumber",       &getblockbynumber,       false,  false },
     { "getblockhash",           &getblockhash,           false,  false },
